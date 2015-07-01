@@ -14,6 +14,7 @@
 		C1CFB0931B437AB30029715D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CFB0921B437AB30029715D /* Images.xcassets */; };
 		C1CFB0961B437AB30029715D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CFB0941B437AB30029715D /* LaunchScreen.xib */; };
 		C1CFB0A21B437AB30029715D /* Demo_Git_LocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB0A11B437AB30029715D /* Demo_Git_LocalTests.m */; };
+		C1CFB0AE1B437DC20029715D /* TestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB0AD1B437DC20029715D /* TestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C1CFB09B1B437AB30029715D /* Demo_Git_LocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_Git_LocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CFB0A01B437AB30029715D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1CFB0A11B437AB30029715D /* Demo_Git_LocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Git_LocalTests.m; sourceTree = "<group>"; };
+		C1CFB0AC1B437DC20029715D /* TestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGit.h; sourceTree = "<group>"; };
+		C1CFB0AD1B437DC20029715D /* TestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		C1CFB0841B437AB30029715D /* Demo_Git_Local */ = {
 			isa = PBXGroup;
 			children = (
+				C1CFB0AB1B437D8A0029715D /* TestGit */,
 				C1CFB0891B437AB30029715D /* AppDelegate.h */,
 				C1CFB08A1B437AB30029715D /* AppDelegate.m */,
 				C1CFB08C1B437AB30029715D /* ViewController.h */,
@@ -117,6 +121,15 @@
 				C1CFB0A01B437AB30029715D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1CFB0AB1B437D8A0029715D /* TestGit */ = {
+			isa = PBXGroup;
+			children = (
+				C1CFB0AC1B437DC20029715D /* TestGit.h */,
+				C1CFB0AD1B437DC20029715D /* TestGit.m */,
+			);
+			name = TestGit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CFB0AE1B437DC20029715D /* TestGit.m in Sources */,
 				C1CFB08E1B437AB30029715D /* ViewController.m in Sources */,
 				C1CFB08B1B437AB30029715D /* AppDelegate.m in Sources */,
 				C1CFB0881B437AB30029715D /* main.m in Sources */,

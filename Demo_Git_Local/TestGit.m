@@ -12,7 +12,7 @@
 
 
 -(void)testFunction{
-    NSLog(@"TestGit");
+    NSLog(@"TestGit   BBBBB");
     
 }
 @end
