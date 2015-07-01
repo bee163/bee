@@ -13,11 +13,11 @@
 @end
 
 @implementation ViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
    
     NSLog(@"this is first commit");
-    NSLog(@"22222222");
 
 }
 
